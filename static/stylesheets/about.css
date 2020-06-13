@@ -1,0 +1,57 @@
+@import "root.css";
+
+.cover-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-blend-mode: luminosity;
+    mix-blend-mode: luminosity;
+    background-position: 50% 70%;
+}
+
+.cover-img h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body {
+    background: var(--secondary-color);
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    color: var(--primary-color);
+    font-size: 4em;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 100px;
+}
+
+.content p {
+    color: var(--primary-color);
+    font-size: 1.6em;
+}
+
+.credits h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.credits p {
+    font-size: 15px;
+}
+
+.credits a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#heart {
+    opacity: 0;
+    transition: opacity .1s linear;
+}

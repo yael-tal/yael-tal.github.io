@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Heebo:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #1C1E25;
+    --secondary-color: #FDFCEE;
+    --terciary-color: #718981;
+    --cream-color: #F0EFE5;
+    --home2-color: #CEB879;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caudex', serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.italic-hover {
+    display: inline-block;
+    transform-origin: 50% 75%;
+
+    transition: transform .1s ease-in-out;
+}
