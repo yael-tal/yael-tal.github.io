@@ -51,7 +51,7 @@ body {
 }
 
 
-#credits a {
+.credits a {
     color: var(--primary-color);
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ body {
     transition: opacity .1s linear;
 }
 
-#credits:hover #heart {
+.credits:hover #heart {
     opacity: 1;
     transition: opacity .1s linear;
 }
