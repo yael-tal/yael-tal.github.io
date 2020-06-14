@@ -1,5 +1,5 @@
 
-document.addEventListener("load",() => {
+$(document).ready(() => {
    let i = 0;
    const words = ['Love', 'Think', 'Live', 'Breath', 'Dream'];
 
