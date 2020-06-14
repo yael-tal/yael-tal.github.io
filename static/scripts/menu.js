@@ -18,7 +18,7 @@ const menuToggle = () => {
 
 };
 
-document.addEventListener("load",() => {
+$(document).ready(() => {
     console.log('loaded');
     const menuBtn = document.getElementById("menu-btn");
     const menuExit = document.getElementById("menu-exit");
