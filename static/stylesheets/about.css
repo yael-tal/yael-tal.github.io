@@ -1,0 +1,120 @@
+@import "root.css";
+
+.cover-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-blend-mode: luminosity;
+    mix-blend-mode: luminosity;
+    background-position: 50% 70%;
+}
+
+.cover-img h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body {
+    background: var(--secondary-color);
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    color: var(--primary-color);
+    font-size: 4em;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 100px;
+}
+
+#content p {
+    color: var(--primary-color);
+    font-size: 1.6em;
+}
+
+#credits h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#credits p {
+    font-size: 15px;
+}
+
+.credits {
+    margin-top: 100px;
+}
+
+
+#credits a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#heart {
+    opacity: 0;
+    position: relative;
+    bottom: 20px;
+    transition: opacity .1s linear;
+}
+
+#footer {
+    display: none;
+}
+
+#about-footer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#contact {
+    padding: 100px 0;
+}
+
+#contact h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: "Caudex", serif;
+}
+
+#contact a, h2 {
+    color: white;
+    font-size: 1.2em;
+    font-family: "Caudex", serif;
+}
+
+.green {
+    background-color: var(--terciary-color);
+}
+
+.black {
+    background-color: black;
+}
+
+.border {
+    border: 1px solid white;
+    border-radius: 25%;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.border span {
+    color: white;
+    font-family: "Caudex", serif;
+    font-size: 1.4em;
+}
+
+.very-footer {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
+.very-text {
+    color: var(--primary-color);
+}

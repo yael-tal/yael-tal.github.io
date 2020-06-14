@@ -1,0 +1,154 @@
+@import url("./base.css");
+
+body {
+    scroll-snap-type: y proximity;
+}
+
+.home-section {
+    min-height: 100vh;
+    cursor: default;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.home1-row {
+    background: var(--secondary-color);
+}
+
+.home1 {
+    padding-top: 20vh;
+    text-align: left;
+    height: 125vh;
+    width: 100%;
+    word-break: break-word;
+}
+
+.home1 * {
+    z-index: 1;
+}
+
+.home1 > h3 {
+    font-size: 100px;
+    line-height: 120px;
+    z-index: 1;
+}
+
+.opening-img {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    height: 125vh;
+    width: 115vh;
+    opacity: .7;
+}
+
+.opening-img-fadein {
+    opacity: 0 !important;
+}
+
+.home2 > h3 {
+    font-size: 70px;
+    line-height: 130px;
+}
+
+.home2 {
+    white-space: nowrap;
+}
+
+.italic-hover {
+    display: inline-block;
+    transform-origin: 50% 75%;
+
+    transition: transform .1s ease-in-out;
+}
+
+.italic-hover:hover {
+    transform: skew(-10deg);
+    transform-origin: 50% 75%;
+    transition: transform .1s ease-in-out;
+}
+
+.home2-color {
+    color: var(--home2-color);
+}
+
+.inline-img {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0 10px;
+}
+
+.projects-head {
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.projects-head h1 {
+    color: var(--primary-color);
+    font-size: 3em;
+}
+
+.projects-head h2 {
+    color: gray;
+    font-size: 1em;
+    font-family: Heebo, sans-serif;
+    font-weight: lighter;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.project-img-col {
+
+}
+
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform .6s ease-in-out;
+}
+
+.project-img:hover {
+    transition: transform .6s ease-in-out;
+    transform: rotateZ(10deg) scale(1.1);
+}
+
+.projects-row {
+    background: var(--secondary-color);
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.project-text h1 {
+    font-size: 3em;
+    color: var(--primary-color);
+}
+
+
+.project-text h2 {
+    position: absolute;
+    bottom: 40px;
+    color: gray;
+    font-size: .7em;
+    font-family: Heebo, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: none !important;
+}

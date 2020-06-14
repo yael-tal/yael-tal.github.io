@@ -1,0 +1,95 @@
+@import "root.css";
+
+
+.cover-img {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    width:100%;
+}
+
+.profile-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: -150px;
+    left: calc(50% - 150px);
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    border-collapse: separate;
+}
+
+body {
+    background: var(--secondary-color);
+}
+
+.title h1 {
+    font-family: "Caudex", serif;
+    font-size: 80px;
+    margin: 0 -100%;
+    text-align: center;
+    color: var(--primary-color);
+    white-space: pre-line;
+}
+
+.project-content {
+    overflow-x: hidden;
+}
+
+.title h2 {
+    font-family: "Heebo", sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 -100%;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 150px;
+    padding-top: 180px;
+    margin-bottom: 150px;
+}
+
+.title h3 {
+    font-family: "Heebo", sans-serif;
+    font-weight: lighter;
+    color: gray;
+    font-size: 12px;
+    margin: 0 -100%;
+    letter-spacing: 6.5px;
+    text-align: center;
+}
+
+.title p {
+    font-family: "Heebo", sans-serif;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-size: 13px;
+    white-space: pre-line;
+}
+
+.ngt-headers>* {
+    font-family: "Heebo", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+}
+
+.to-projects {
+    color: var(--primary-color);
+    font-family: "Caudex", serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.project-footer {
+    padding: 150px 0 50px;
+}
