@@ -63,6 +63,11 @@ body {
     transition: opacity .1s linear;
 }
 
+#credits:hover #heart {
+    opacity: 1;
+    transition: opacity .1s linear;
+}
+
 #footer {
     display: none;
 }
