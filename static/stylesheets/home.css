@@ -1,8 +1,6 @@
 @import url("./base.css");
 
-.snapping-container {
-    max-height: 100vh;
-    overflow-y: scroll;
+body {
     scroll-snap-type: y proximity;
 }
 
@@ -149,4 +147,8 @@
     font-family: Heebo, sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
+}
+
+.footer {
+    display: none !important;
 }

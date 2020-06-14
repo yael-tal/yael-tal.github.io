@@ -1,15 +1,17 @@
 
-window.onload = () => {
+window.addEventListener("load",() => {
    let i = 0;
-   const words = ['Love', 'Think', 'Live', 'Breath', 'Admire', 'Dream'];
+   const words = ['Love', 'Think', 'Live', 'Breath', 'Dream'];
 
-   const str = document.getElementById("change");
+   const change = document.getElementById("change");
+   const trig = document.getElementById("trig");
    const heart = document.getElementById("heart");
    const credits = document.getElementById("credits");
-   str.addEventListener('mouseenter', e => {
+
+   trig.addEventListener('mouseenter', e => {
        i++;
        i %= words.length;
-       str.innerHTML = words[i];
+       change.innerHTML = words[i];
    });
 
     credits.addEventListener('mouseenter', e => {
@@ -19,4 +21,4 @@ window.onload = () => {
     credits.addEventListener('mouseleave', e => {
         heart.style.opacity = "0"
     })
-};
+});

@@ -1,0 +1,80 @@
+@import "root.css";
+
+body {
+    background: var(--secondary-color);
+}
+
+.work-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.gallery-item {
+    margin: 25px 0;
+    max-height: 500px;
+    width: 50% !important;
+    transition: transform 1s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+    transition: transform 1s ease-in-out;
+}
+
+.thumb {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#ngt .thumb {
+    width: 100% !important;
+}
+
+#hoyo .thumb {
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#yodfat .thumb {
+    object-fit: cover;
+    object-position: 50% 40%;
+    width: 130%;
+}
+
+#jam .thumb {
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#sabich .thumb {
+    object-fit: contain;
+    object-position: center;
+}
+
+.gallery-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.gallery-text h1 {
+    color: var(--primary-color);
+    font-family: "Caudex", serif;
+    font-size: 2em;
+    margin-top: -7px;
+}
+
+.gallery-text h2 {
+    color: gray;
+    font-family: "Heebo", sans-serif;
+    font-size: .6em;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    text-align: right;
+    text-transform: uppercase;
+}

@@ -43,10 +43,10 @@
                 <li><a href=/about>
                     About<span class="num numl">#1</span>
                 </a></li>
-                <li><a href="#">
-                    Work<span class="num numr">#2</span>
+                <li><a href=/work>
+                    Projects<span class="num numr">#2</span>
                 </a></li>
-                <li><a>
+                <li><a href=/about#about-footer>
                     Lets talk<span class="num numr">#2</span>
                 </a></li>
             </ul>
@@ -65,14 +65,16 @@
                 <h1>Well, my name is Yael</h1>
                 <p>I'm a 24 years old multidisciplinary designer based in the center of israel. Currently Im a VC design student, soon will finish and get my B.A in Design.</p>
 
+                <span id="trig">
                 <h1>I <span id="change" style="font-style: italic">love</span> Design</h1>
                 <p>For me, design is a strong tool that can be used to make a difference, to create experiences, share ideas and communicate messages to different people.</p>
+                </span>
 
                 <h1>I'm a group player</h1>
-                <p>I love working with p eople, getting inspired by others point of view. Along that, I can also work great on my own, managing priorities, time, and work under pressure.</p>
+                <p>I love working with people and getting inspired by others point of view. Alongside that, I work great on my own, manage priorities and time.</p>
                 <h1>Technologies</h1>
-                <img class="w-100" style="max-height: 400px; object-fit: cover; object-position: center" alt="technologies" src=/static/assets/About/icons_technologies.svg />
-                <div class="row credits d-flex flex-row justify-content-start">
+                <img class="w-100" style="margin-left: -24px; margin-top: -44px; max-height: 400px; object-fit: cover; object-position: center" alt="technologies" src=/static/assets/About/icons_technologies.svg />
+                <div class="row credits d-flex flex-row justify-content-start align-baseline">
                     <div id="credits" class="col col-md-6">
                         <h2>credits</h2>
                         <p>Special thanks to <a class="italic-hover" href="https://www.linkedin.com/in/yair-vogel-517446156/">Yair Vogel</a> <br>for the development of the site</p>
@@ -83,10 +85,35 @@
                 </div>
             </div>
         </div>
+    <div id="about-footer" class="row mx-0">
+        <div class="col-md-3 green"></div>
+        <div id="contact" class="col col-md-3 green ">
+            <h1>Lets Talk</h1>
+            <a href="mailto:yaeli1770@gmail.com"><h2>
+                yaeli1770@gmail.com
+            </h2></a>
+        </div>
+        <div id="cv" class="col col-md-3 d-flex flex-row align-center justify-content-end black">
+            <a download href=/static/assets/About/CV.pdf>
+                <div class="border">
+                    <span>
+                    Download my<br>full CV.pdf
+                    </span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 black"></div>
+    </div>
+
+    </div>
+    <div class="row very-footer">
+        <div class="col pt-5" style="margin-bottom: 150px;">
+            <h2 style="color: var(--primary-color);">+972-542224696 | @yaela_ta</h2>
+        </div>
     </div>
 
 
-    <div class="row mx-0 footer">
+    <div id="footer" class="row mx-0 footer">
         <div class="col">
             <h1>Lets Talk</h1>
             <a href="mailto:yaeli1770@gmail.com"><h2>

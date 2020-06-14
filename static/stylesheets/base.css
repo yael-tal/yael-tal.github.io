@@ -138,7 +138,7 @@ a:hover {
     height: 35px;
 
     top: 79px;
-    left: 90px;
+    left: 62px;
 
     transform: scale(.6) translateX(-40px);
 }
@@ -213,22 +213,24 @@ a:hover {
 }
 
 .footer {
-    background: var(--secondary-color);
-    color: var(--terciary-color) !important;
+    background: var(--terciary-color);
+    color: var(--secondary-color) !important;
     font-family: "Caudex", serif;
-    margin: 150px 0 75px;
+    width: 100% !important;
+    margin-top: 75px;
+    padding: 75px 0 75px;
 }
 
 .footer h1 {
     font-size: 75px;
     line-height: 90px;
     text-align: center;
-    color: var(--terciary-color) !important;
+    color: var(--secondary-color) !important;
 }
 
 .footer h2 {
     font-size: 40px;
     line-height: 55px;
     text-align: center;
-    color: var(--terciary-color) !important;
+    color: var(--secondary-color) !important;
 }
