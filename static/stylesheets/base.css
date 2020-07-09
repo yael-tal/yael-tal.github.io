@@ -4,6 +4,7 @@ body {
     /*background: var(--secondary-color);*/
     color: var(--primary-color);
     font-family: 'Caudex', serif;
+    overflow-x: hidden;
 }
 
 a {
